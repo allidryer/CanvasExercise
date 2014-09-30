@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Canvas View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="CanvasViewController" customModule="CanvasTwo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="sRy-3X-7lZ">
+                                <rect key="frame" x="0.0" y="370" width="320" height="198"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dead" id="cfm-0A-Ccc">
+                                        <rect key="frame" x="39" y="49" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="XTK-yc-wmv" appends="YES" id="4Ks-V9-dyr"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="excited" id="6Kk-R1-C9p">
+                                        <rect key="frame" x="145" y="49" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Dnw-z4-IpZ" appends="YES" id="hpz-Kk-QJe"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sad" id="TXj-MX-FEV">
+                                        <rect key="frame" x="248" y="49" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="cu1-eG-6DQ" appends="YES" id="AFg-Wt-KZ8"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="happy" id="mpV-OM-eWl">
+                                        <rect key="frame" x="39" y="123" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="hrB-2B-AMB" appends="YES" id="kBl-Jb-rbJ"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wink" id="0zT-td-fip">
+                                        <rect key="frame" x="145" y="123" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="ZPr-Dt-0JB" appends="YES" id="8Sb-sI-8ah"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tongue" id="Phl-jN-HXu">
+                                        <rect key="frame" x="248" y="123" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="ADT-Wx-kjv" appends="YES" id="sDo-Np-JI5"/>
+                                        </connections>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="down_arrow" id="Qa1-QH-XH0">
+                                        <rect key="frame" x="150" y="13" width="20" height="14"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="7CB-cY-jOK" appends="YES" id="qI6-Tu-3bt"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="deadImageView" destination="cfm-0A-Ccc" id="THN-Nf-asf"/>
+                        <outlet property="downArrowImageView" destination="Qa1-QH-XH0" id="Kio-2w-KnH"/>
+                        <outlet property="excitedImageView" destination="6Kk-R1-C9p" id="9iO-jo-Nlr"/>
+                        <outlet property="happyImageView" destination="mpV-OM-eWl" id="eQF-gs-GJT"/>
+                        <outlet property="sadImageView" destination="TXj-MX-FEV" id="6zD-DA-Ew3"/>
+                        <outlet property="tongueImageView" destination="Phl-jN-HXu" id="poe-Kh-3Mj"/>
+                        <outlet property="trayView" destination="sRy-3X-7lZ" id="DFD-Lu-kNJ"/>
+                        <outlet property="winkImageView" destination="0zT-td-fip" id="LYY-Uq-TRp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="7CB-cY-jOK" userLabel="onTrayMoved">
+                    <connections>
+                        <action selector="onTrayMoved:" destination="vXZ-lx-hvc" id="fzf-ip-55u"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="XTK-yc-wmv" userLabel="onDead"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Dnw-z4-IpZ" userLabel="onExcited"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="cu1-eG-6DQ" userLabel="onSad"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="hrB-2B-AMB" userLabel="onHappy"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="ZPr-Dt-0JB" userLabel="onWink"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="ADT-Wx-kjv" userLabel="onTongue">
+                    <connections>
+                        <action selector="onTongue:" destination="vXZ-lx-hvc" id="8ZN-wT-9qm"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="179" y="361"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dead" width="600" height="600"/>
+        <image name="down_arrow" width="20" height="14"/>
+        <image name="excited" width="600" height="600"/>
+        <image name="happy" width="600" height="600"/>
+        <image name="sad" width="600" height="600"/>
+        <image name="tongue" width="600" height="600"/>
+        <image name="wink" width="600" height="600"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
