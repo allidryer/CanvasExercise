@@ -51,7 +51,6 @@ class CanvasViewController: UIViewController {
                 downArrowImageView.transform = CGAffineTransformMakeRotation(translation.y * CGFloat(M_PI) / 180)
             }
             
-            
         } else if gestureRecognizer.state == UIGestureRecognizerState.Ended {
             if velocity.y < 0 {
                 UIView.animateWithDuration(0.3, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 2.0, options: nil, animations: { () -> Void in
